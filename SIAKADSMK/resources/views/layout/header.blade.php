@@ -1,3 +1,4 @@
+
 <!-- ##### Header Area Start ##### -->
 <header class="header-area">
 
@@ -11,7 +12,7 @@
                             <a href="index.html"><img src="{{asset('img/core-img/logo.png')}}" alt=""></a>
                         </div>
                         <div class="login-content">
-                            <a href="#">Register / Login</a>
+                            <a href="#">Login</a>
                         </div>
                     </div>
                 </div>
