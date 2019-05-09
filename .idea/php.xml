@@ -79,6 +79,8 @@
       <path value="$PROJECT_DIR$/SIAKADSMK/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/SIAKADSMK/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/SIAKADSMK/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/SIAKADSMK/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/SIAKADSMK/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

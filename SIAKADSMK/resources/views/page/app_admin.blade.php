@@ -66,7 +66,14 @@
 </head>
 <body>
 
-@yield('content')
+
+@include('admin.layout_admin.nav_left')
+
+    <div id="right-panel" class="right-panel">
+        @include('admin.layout_admin.header')
+        @yield('content')
+        @include('admin.layout_admin.footer')
+    </div>
 
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
