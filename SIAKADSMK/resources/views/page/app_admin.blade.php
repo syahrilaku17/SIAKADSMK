@@ -63,6 +63,8 @@
             height: 160px;
         }
     </style>
+
+    <link href="{{ asset('assets/vendor/datatables/datatables.min.css') }}" rel="stylesheet">
 </head>
 <body>
 
@@ -75,6 +77,8 @@
         @include('admin.layout_admin.footer')
     </div>
 
+
+<script src="{{ asset('assets/vendor/datatables/datatables.min.js') }}"></script>
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
@@ -100,6 +104,9 @@
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
 <script src="{{asset('js/admin/init/fullcalendar-init.js')}}"></script>
 <!--Local Stuff-->
+
+@stack('scripts')
+
 <script>
     jQuery(document).ready(function($) {
         "use strict";

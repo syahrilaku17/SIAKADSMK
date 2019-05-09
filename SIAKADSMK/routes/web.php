@@ -14,6 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
 Route::get('/admin', function () {
     return view('admin.admin');
 });
+
+Route::resource('/jurusan', 'jurusanController');
+
+Route::get('/table/jurusan', 'jurusanController@dataTable')->name('table.jurusan');
